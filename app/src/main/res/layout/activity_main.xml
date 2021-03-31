@@ -7,6 +7,17 @@
     android:padding="16dp"
     tools:context=".MainActivity">
 
+    <TextView
+        android:id="@+id/tv_welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:gravity="center"
+        android:layout_marginBottom="8dp"
+        android:background="@color/teal_700"
+        android:textColor="@color/white"
+        android:text="Selamat Datang, User"/>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -102,11 +113,12 @@
 
 </LinearLayout>
 
-        <Button
-            android:id="@+id/btn_submit"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:text="Submit" />
+<Button
+android:id="@+id/btn_submit"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_marginTop="16dp"
+android:text="Submit" />
 
-</LinearLayout>
+
+    </LinearLayout>
